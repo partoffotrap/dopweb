@@ -1,0 +1,187 @@
+body {
+    height: 100%;
+}
+
+.kindPizza {
+    padding: 15px;
+    background-color: white;
+    border: none;
+    transition: background-color 0.5s ease;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.kindPizza:focus{
+    background-color: #ff6200;
+    border: 1px solid orange;
+}
+
+.kindPizza img {
+    width: 100%;
+    height: auto;
+    border: 2px;
+}
+
+.kindPizza span {
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.PizzaList {
+    display: flex;
+    margin-left: 7%;
+}
+
+.toppingCountButton {
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin-right: 10px;
+}
+
+.toppingCountValue{
+    font-family: 'Inter', sans-serif;
+}
+
+.toppingCount{
+    padding-left: 25%;
+}
+
+.ChangeSize {
+    background-color: #e1e1e7;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    padding: 0 10px;
+}
+
+.buttonPizza {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.buttonTopping {
+    background-color: white;
+    border: none;
+    transition: background-color 0.5s ease;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.buttonTopping:focus,
+.buttonTopping:active {
+    background-color: #f3f3f8;
+}
+
+.buttonTopping img {
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
+.ToppingList {
+    display: flex;
+    margin-left: 20px;
+}
+
+.ToppingListDiv {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.button_buy {
+    border-radius: 20px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    background: #f63;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.button_size_big {
+    border-radius: 20px;
+    width: 190px;
+    height: 35px;
+    border: none;
+    background-color: #f2f2f6;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+}
+
+.button_size_big:focus,
+.button_size_big:active {
+    background-color: white;
+    color: black;
+}
+
+.button_size_small {
+    border-radius: 20px;
+    width: 190px;
+    height: 35px;
+    border: none;
+    background-color: #f2f2f6;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+}
+
+.button_size_small:focus{
+    background-color: white;
+    color: black;
+}
+
+.window {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.menu {
+    background-color: #f2f2f2;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
