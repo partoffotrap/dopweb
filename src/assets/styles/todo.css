@@ -1,0 +1,29 @@
+.todos {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.text-field__input {
+    width: 60%;
+}
+.button {
+    width: 60%;
+    background: #3bada4;
+    color: #9607a9;
+}
+
+.todo {
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.todo__remove {
+    background-color: transparent;
+    border: none;
+    color: #ff0000;
+    cursor: pointer;
+}
