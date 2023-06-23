@@ -1,3 +1,6 @@
+.header {
+    padding-right: 160px;
+}
 .todos {
     margin: 0 auto;
     max-width: 400px;
