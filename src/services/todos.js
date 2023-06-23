@@ -19,7 +19,7 @@ export default class Todos {
         let response;
         let retries = 0;
         const maxRetries = 3;
-        const retryDelay = 1000; // in milliseconds
+        const retryDelay = 1000;
         while (retries < maxRetries) {
             try {
                 response = await api('/todo');
@@ -46,9 +46,8 @@ export default class Todos {
 
     static async delete(id) {
         try {
-            return await api('/todo/' + id, { method: 'DELETE' });;
+            return await api('/todo/' + id, { method: 'DELETE' });
         } catch (e) {
-            // такая же логика как и в getAll
             return Todos.delete(id);
         }
     }
